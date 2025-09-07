@@ -4,6 +4,12 @@ A modern AI-powered chatbot built with React (frontend) and Node.js/Express (bac
 It uses speech recognition, speech synthesis, and LLM APIs (like Gemini/OpenAI/Groq) to deliver natural conversations.
 
 
+![Image](https://github.com/user-attachments/assets/44504839-1032-4b86-9a58-2d1ff6b4b618)
+
+
+
+
+
 🚀 Features
 
 💬 Real-time Chat – Text-based conversational interface
