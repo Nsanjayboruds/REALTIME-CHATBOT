@@ -1,142 +1,141 @@
-🤖 AI Chatbot
+# REALTIME-CHATBOT 🤖💬
 
-A modern AI-powered chatbot built with React (frontend) and Node.js/Express (backend).
-It uses speech recognition, speech synthesis, and LLM APIs (like Gemini/OpenAI/Groq) to deliver natural conversations.
+A modern AI-powered, real-time chatbot built with **React** (frontend) and **Node.js/Express** (backend).  
+It features **text and voice interactions**, **smart command detection**, and integrates with powerful LLM APIs like OpenAI or Gemini.
 
+---
 
-![Image](https://github.com/user-attachments/assets/44504839-1032-4b86-9a58-2d1ff6b4b618)
+##  Table of Contents
 
+- [Demo](#-demo)
+- [About](#-about)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#-prerequisites)
+  - [Installation](#-installation)
+  - [Environment Variables](#-environment-variables)
+  - [Running the App](#-running-the-app)
+- [Screenshots](#-screenshots)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
+- [License](#-license)
 
+---
 
+##  Demo
 
+*(Add a demo link or embed a short GIF/video)*  
+Try it live: [Live Demo URL]()
 
-🚀 Features
+---
 
-💬 Real-time Chat – Text-based conversational interface
+##  About
 
-🎙 Voice Support – Speech-to-text input & text-to-speech output
+**REALTIME-CHATBOT** is designed for natural, seamless conversations. You can interact via:
 
-🔍 Smart Commands – Handles Google search, quick actions, and social links
+- **Text** — Type your messages.
+- **Voice** — Use speech recognition and text-to-speech for hands-free chat.
 
-🧠 AI Responses – Powered by advanced LLM APIs
+The bot recognizes **smart commands** like “search Google for …” or “open YouTube”, making your interaction more dynamic.
 
-📱 Responsive Design – Works across desktop & mobile
+---
 
-🛠 Tech Stack
+##  Features
 
-Frontend
+- **Text Chat**: Instant message exchange.
+- **Voice Input**: Speak your messages using the browser’s SpeechRecognition API.
+- **Voice Output**: Hear responses via SpeechSynthesis API.
+- **Smart Commands**: Built-in actions for web searches, opening links, etc.
+- **Responsive Design**: Works well on both desktop and mobile.
+- **AI Integration**: Powered by LLMs (OpenAI, Gemini, Groq… etc.).
+- *(Optional)* **Chat History**: Save previous conversations (e.g., with MongoDB).
 
-React + Vite
+---
 
-TailwindCSS / ShadCN UI
+##  Tech Stack
 
-SpeechRecognition API
+| Layer      | Technologies & APIs |
+|------------|----------------------|
+| Frontend   | React, Vite, Tailwind CSS, optionally ShadCN UI |
+| Voice APIs | Web Speech API (SpeechRecognition, SpeechSynthesis) |
+| Backend    | Node.js, Express, integration with LLM APIs |
+| (Optional) | MongoDB or another database for chat history |
 
-SpeechSynthesis API
+---
 
-Backend
+##  Getting Started
 
-Node.js + Express
+### Prerequisites
 
-API Integration (Gemini / OpenAI / Groq / Replicate)
+- [Node.js](https://nodejs.org/) v16+  
+- npm or yarn  
+- (Optional) MongoDB instance or connection string
 
-MongoDB (optional, for user history)
+---
 
-📦 Installation
+### Installation
 
-Clone the repo:
-git clone https://github.com/your-username/your-chatbot.git
-cd your-chatbot
+```bash
+# Clone the repo
+git clone https://github.com/Nsanjayboruds/REALTIME-CHATBOT.git
+cd REALTIME-CHATBOT
 
-Frontend Setup
-
-cd client
+# Install dependencies in frontend & backend
+cd frontend
 npm install
-npm run dev
 
-Backend Setup
-
-cd server
+cd ../backend
 npm install
-npm run dev
 
-🔑 Environment Variables
+Environment Variables
 
-Create a .env file in your server folder:
+Create a .env file inside your backend directory:
 
 PORT=5000
-MONGO_URI=your_mongodb_uri
-GEMINI_API_KEY=your_gemini_api_key
-GEMINI_API_KEY=your_openai_api_key
+MONGO_URI=<your_mongodb_connection_uri_optional>
+OPENAI_API_KEY=<your_openai_api_key>      # or GEMINI_API_KEY / GROQ_API_KEY as needed
 
 
-▶️ Usage
+Running the App:-
 
-    Start the backend (npm run dev in /server)
+# In backend directory
+npm run dev   # Starts the backend server (e.g., on port 5000)
 
-    Start the frontend (npm run dev in /client)
+# In frontend directory
+npm run dev   # Starts the React app (usually port 5173)
 
-    Open http://localhost:5173
 
-    Start chatting 🎉
-
-📸 Screenshots
-
-(Add your screenshots here)
-🌟 Future Improvements
-
-   <img width="1876" height="860" alt="Screenshot 2025-09-07 164929" src="https://github.com/user-attachments/assets/43d7325c-137f-498f-bbc2-29132ce60047" />
-   <img width="1919" height="887" alt="Screenshot 2025-09-07 164910" src="https://github.com/user-attachments/assets/5b519f1e-2fbf-42b2-95a6-2bd7d301d547" />
+Then open your browser at http://localhost:5173/
 
 
 
-    Chat history persistence
 
-    Advanced AI personas
 
-    Mobile PWA support
 
-🤝 Contributing
+Contributing
 
-Contributions are welcome! Fork the repo, create a feature branch, and submit a PR.
-📜 License
+Contributions are welcome! Here's how to get started:
+
+Fork this repository.
+
+Create your feature branch: git checkout -b feature/YourFeature
+
+Commit changes: git commit -m "Add your-feature"
+
+Push to your branch: git push origin feature/YourFeature
+
+Open a Pull Request.
+
+Please follow project conventions and maintain code quality.
+
+
+
+License
 
 This project is licensed under the MIT License.
-
-👉 Would you like me to make this README tailored to your exact chatbot (the one you’re building with speech, commands, and AI integration), or should I keep it more generic for any chatbot?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+See the LICENSE
 
 
 
