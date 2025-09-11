@@ -24,10 +24,6 @@ It features **text and voice interactions**, **smart command detection**, and in
 
 ---
 
-##  Demo
-
-*(Add a demo link or embed a short GIF/video)*  
-Try it live: [Live Demo URL]()
 
 ---
 
